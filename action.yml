@@ -41,5 +41,5 @@ inputs:
     description: Attachment files are entered as an array. Required key 'path'. (The prefix 'file://' if you want to read a file)
     required: false
 runs:
-  using: node12
+  using: node16
   main: dist/index.js
